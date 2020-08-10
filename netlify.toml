@@ -1,0 +1,15 @@
+[build]
+  functions = "functions/"
+
+  publish = "public/"
+
+[[redirects]]
+  from = "api/start"
+  to = "/.netlify/functions/start"
+  status = 200
+
+
+[[redirects]]
+  from = "api/jsonify"
+  to = "/.netlify/functions/jsonify"
+  status = 200
